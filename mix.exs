@@ -50,7 +50,7 @@ defmodule Penelope.Mixfile do
 
   defp deps do
     [
-      {:e2qc, "~> 1.2"},
+      # {:e2qc, "~> 1.2"},
       {:poison, "~> 3.0 or ~> 4.0", optional: true},
       {:stream_data, "~> 0.3", only: [:test]},
       {:excoveralls, "~> 0.10", only: :test},
